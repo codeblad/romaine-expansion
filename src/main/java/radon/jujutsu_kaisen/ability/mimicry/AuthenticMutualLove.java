@@ -55,8 +55,7 @@ public class AuthenticMutualLove extends DomainExpansion implements IClosedDomai
 
     @Override
     public List<Block> getBlocks() {
-        return List.of(JJKBlocks.DOMAIN_SKY.get());
-        //return List.of(JJKBlocks.DOMAIN_TRANSPARENT.get());
+        return List.of(JJKBlocks.DOMAIN_TRANSPARENT.get());
     }
 
     @EventBusSubscriber(modid = JujutsuKaisen.MOD_ID, bus = EventBusSubscriber.Bus.GAME)
